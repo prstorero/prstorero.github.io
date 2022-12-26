@@ -88,29 +88,7 @@ export default {
     background-color: #555;
   }
 
-  /* .toggle-button {
-    position: absolute;
-    top: 0.75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 20px;
-  }
-
-  .toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: var(--white);
-    border-radius: 10px;
-  } */
-
   @media screen and (max-width: 600px) {
-    /* .toggle-button {
-      display: flex;
-    } */
-
     .navigation {
       /* Properties to animate, choosing max-height instead
       of height as you can't animate from 0 to auto. Animating
@@ -137,8 +115,6 @@ export default {
       width: 100%;
       flex-direction: column;
       position: relative;
-      /* top: -100px; */
-      /* left: -200px; */
       transition: top 1s, left 0.5s;
     }
     .navigation li {

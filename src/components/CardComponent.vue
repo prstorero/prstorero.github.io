@@ -50,19 +50,4 @@ export default {
     background-color: #444;
     max-width: 700px;
   }
-
-  img {
-    /* width: 100%; */
-  }
-
-  .card-text {
-    /* padding: 10px; */
-  }
-
-  .card-header {
-    /* padding: 0.5rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    margin-bottom: 1rem;
-    font-size: 1.2rem; */
-  }
 </style>

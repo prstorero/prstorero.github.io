@@ -61,7 +61,6 @@
     }
 
     .container-image {
-      /* text-align: center; */
       width: 100%;
     }
 

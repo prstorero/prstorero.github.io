@@ -139,16 +139,9 @@ export default {
     transition: font 0.5s, margin 0.5s;
   }
   .devicon:hover::before {
-    /* font-size: larger; */
     transform: translateY(-100px);
   }
   .box-icon {
     transition: margin 0.5s;
-  }
-  .box-icon:has(.devicon:hover) {
-    /* Set some negative margins so the larger
-    font size doesn't cause drastic layout shift */
-    /* margin-right: -11px;
-    margin-bottom: -25px; */
   }
 </style>
